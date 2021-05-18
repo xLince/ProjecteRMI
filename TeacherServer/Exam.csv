@@ -1,4 +1,10 @@
+Quin és el propòsit d’HTTP:;1.Transmissió de vídeos d’events esportius;2.Entrega de correu electrònic;3.Transport d’informació hipertextual;4.Accés per terminal a servidors remots;3
+HTTP/1.2 és un protocol binari, a diferència d’HTTP/2 que és basat en text:;1.Cert;2.Fals;2
 HTTP/1.2 va ser dissenyat per reduir el nombre de connexions UDP entre ordinadors:;1.Cert;2.Fals;2
 HTTP/2 afegeix emmagatzemament de preferències i perfils d’usuaris a HTTP/1.x:;1.Cert;2.Fals;2
 HTTP/3 utilitza tècniques de transport P2P perreduir l’utilització de l’ample de banda:;1.Cert;2.Fals;2
-Quin és el propòsit d’HTTP:;1.Transmissió de vídeos d’events esportius.;2.Entrega de correu electrònic.;3.Transport d’informació hipertextual.;4.Accés per terminal a servidors remots.;3
+Django s’adhereix a un model anàleg a MVC, anomenant-lo:;1.Model-View-Template;2.Multiple-View-Data-Abstraction;3.Controller-Template-Database;4.Cap dels anteriors;1
+La capçalera E-Tag a HTTP:;1.Afegeix una signatura criptogràfica a les dadesper validar-ne la integritat;2.No existeix;3.Afegeix tags als recursos REST per classificardades segons tòpics i tipus;4.Etiqueta les diferents versions d’un recurs.;4
+Deserialització es el proces de fer una representació streamejable de les dades que volem transferir per la xarxa?;1.Cert;2.Fals;2
+Codi d'estat començant per 3xx significia que:;1.Informació;2.Error del client;3.Redirecció;4.Error del servidor;3
+L'arquitectura REST fa que el serivdor mantingui l'estat del client?;1.Cert;2.Fals;2

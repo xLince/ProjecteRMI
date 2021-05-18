@@ -38,9 +38,9 @@ public class Server {
         }
     }
 
-    private static void reader() {
+    private static void reader(String nomFitxer) {
         String[] questions = new String[50];
-        try (BufferedReader br = new BufferedReader(new FileReader("Exam.csv"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(nomFitxer))) {
             String line = br.readLine();
             while (line != null) {
                 String[] question = line.split(SEPARATOR);
@@ -66,7 +66,7 @@ public class Server {
         try{
             //create new BufferedWriter for the output file
             bf = new BufferedWriter( new FileWriter(file) );
-            bf.write("Alumne | Nota");
+            bf.write("Alumne    | Nota");
             bf.newLine();
             //iterate map entries
             for (Map.Entry<String, Integer> entry : notes_finals.entrySet()) {
@@ -103,7 +103,10 @@ public class Server {
             Interrupted.Interrupt interrupt = new Interrupted.Interrupt(obj, start_word);
             //The tread starts reading for the key
             interrupt.start();//define the semaphore object
-            reader();
+            Scanner keyboard = new Scanner(System.in);
+            System.out.println("Introdueix el nom del fitxer:");
+            String nomFitxer = keyboard.next();
+            reader(nomFitxer);
             synchronized (obj){
                 while(!interrupt.interrupted){
                     System.out.println("Escriu \""+ start_word+"\" per començar l'examen:");
