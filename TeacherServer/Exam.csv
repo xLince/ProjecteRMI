@@ -1,0 +1,4 @@
+HTTP/1.2 va ser dissenyat per reduir el nombre de connexions UDP entre ordinadors:;1.Cert;2.Fals;2
+HTTP/2 afegeix emmagatzemament de preferències i perfils d’usuaris a HTTP/1.x:;1.Cert;2.Fals;2
+HTTP/3 utilitza tècniques de transport P2P perreduir l’utilització de l’ample de banda:;1.Cert;2.Fals;2
+Quin és el propòsit d’HTTP:;1.Transmissió de vídeos d’events esportius.;2.Entrega de correu electrònic.;3.Transport d’informació hipertextual.;4.Accés per terminal a servidors remots.;3
