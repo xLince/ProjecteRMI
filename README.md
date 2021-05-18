@@ -1,5 +1,5 @@
 # ProjecteRMI
-Projecte de RMI (Remote Method Implementation), per a Computació Distribuïda i Aplicacions en el Grau d'Enginyeria Informàtica
+Projecte de RMI (Remote Method Implementation), per a Computació Distribuïda i Aplicacions en el Grau d'Enginyeria Informàtica de la Universitat de Lleida.
 
 ## Executar
 Per fer una prova del codi s'ha de descarregar les dues carpetes i executar-les per separat primer el servidor perquè el client es pugui connectar amb el servidor. 
